@@ -6,7 +6,6 @@
 [![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-MVC-512BD4?logo=dotnet)](https://docs.microsoft.com/aspnet/core)
 [![Entity Framework](https://img.shields.io/badge/Entity%20Framework-Core%208-512BD4?logo=dotnet)](https://docs.microsoft.com/ef/core)
 [![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3-7952B3?logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 FarmTrack is a comprehensive farm management system that helps farmers track crops, manage planting schedules, monitor harvests, and stay on top of daily tasks. Built with a modern, responsive UI and real-time weather integration.
 
@@ -71,8 +70,8 @@ FarmTrack is a comprehensive farm management system that helps farmers track cro
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/DWA-AU24-Lab2-Group-11.git
-   cd DWA-AU24-Lab2-Group-11
+   git clone https://github.com/Abdriano95/FarmTrack-management-system.git
+   cd FarmTrack-management-system
    ```
 
 2. **Navigate to the project folder**
@@ -92,6 +91,9 @@ FarmTrack is a comprehensive farm management system that helps farmers track cro
 
 4. **Apply Database Migrations**
    ```bash
+   # Build first so the EF Core tools can read the restored project
+   dotnet build
+
    # Create the FarmTrack database (crops, schedules, tasks, etc.)
    dotnet ef database update --context FarmTrackContext
    
@@ -236,11 +238,11 @@ The application comes pre-seeded with realistic demo data:
 - **Abdulla Mehdi** - [GitHub](https://github.com/Abdriano95)
 - **Joakim Olsson** - [GitHub](https://github.com/joakimolssonn)
 
-*Originally developed as part of the Development of Web Applications course (DWA-AU24) at [University Name]*
+*Originally developed as part of the Development of Web Applications course (DWA-AU24) at the University of Borås*
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This repository does not include a license file.
 
 ---
 
